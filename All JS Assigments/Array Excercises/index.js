@@ -63,3 +63,14 @@
 
 //      ====pop===
 // ● Create a function that removes the last element of an array and returns it.
+
+const remEl = () => {
+    let arr = ["Jerry","Saeed","Ali"];
+    //before
+    console.log(arr);
+    //after
+    arr.pop();
+    console.log(arr);    
+}
+
+remEl()
