@@ -39,23 +39,27 @@
 // ● Write a function that uses push to add a string to an array and then logs the new length
 // of the array.
 
-const addStr = () =>{
-    let arrStr = ["Jerry","Saeed","Ali"];
-    //before
-    console.log(arrStr.length);
+// const addStr = () =>{
+//     let arrStr = ["Jerry","Saeed","Ali"];
+//     //before
+//     console.log(arrStr.length);
 
-    arrStr.push("Kamil");
-    //after
-    console.log(arrStr.length);
-}
-addStr()
+//     arrStr.push("Kamil");
+//     //after
+//     console.log(arrStr.length);
+// }
+// addStr()
 
 //● Simulate a stack by adding items with push and removing the last item later
 
-let myArr = [];
-myArr.push("Saeed","Jerry");
-//before
-console.log(myArr);
-myArr.pop()
-// after
-console.log(myArr);
+// let myArr = [];
+// myArr.push("Saeed","Jerry");
+// //before
+// console.log(myArr);
+// myArr.pop()
+// // after
+// console.log(myArr);
+
+
+//      ====pop===
+// ● Create a function that removes the last element of an array and returns it.
