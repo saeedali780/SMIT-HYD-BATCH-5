@@ -49,3 +49,13 @@ const addStr = () =>{
     console.log(arrStr.length);
 }
 addStr()
+
+//● Simulate a stack by adding items with push and removing the last item later
+
+let myArr = [];
+myArr.push("Saeed","Jerry");
+//before
+console.log(myArr);
+myArr.pop()
+// after
+console.log(myArr);
