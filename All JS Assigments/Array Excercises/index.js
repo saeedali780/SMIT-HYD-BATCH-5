@@ -24,5 +24,13 @@ const addNums = ()=>{
 
 addNums()
 
+//● Use push to add a nested array [5, 6] to an existing array.
+
+let arr1 = [3,4];
+let arr2 = [5,6];
+arr1.push(arr2)
+console.log(arr1);
+
+
 
 
